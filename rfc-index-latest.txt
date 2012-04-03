@@ -1,0 +1,88 @@
+
+===========================================================================
+  This is a list of the latest RFCs only.
+  To get the full list of RFCs, please look up rfc-index.txt
+===========================================================================
+
+6550 RPL: IPv6 Routing Protocol for Low-Power and Lossy Networks. T.
+     Winter, Ed., P. Thubert, Ed., A. Brandt, J. Hui, R. Kelsey, P. Levis,
+     K. Pister, R. Struik, JP. Vasseur, R. Alexander. March 2012. (Format:
+     TXT=360651 bytes) (Status: PROPOSED STANDARD)
+
+6551 Routing Metrics Used for Path Calculation in Low-Power and Lossy
+     Networks. JP. Vasseur, Ed., M. Kim, Ed., K. Pister, N. Dejean, D.
+     Barthel. March 2012. (Format: TXT=67707 bytes) (Status: PROPOSED
+     STANDARD)
+
+6552 Objective Function Zero for the Routing Protocol for Low-Power
+     and Lossy Networks (RPL). P. Thubert, Ed.. March 2012. (Format:
+     TXT=30419 bytes) (Status: PROPOSED STANDARD)
+
+6553 The Routing Protocol for Low-Power and Lossy Networks (RPL)
+     Option for Carrying RPL Information in Data-Plane Datagrams. J. Hui,
+     JP. Vasseur. March 2012. (Format: TXT=19093 bytes) (Status: PROPOSED
+     STANDARD)
+
+6554 An IPv6 Routing Header for Source Routes with the Routing
+     Protocol for Low-Power and Lossy Networks (RPL). J. Hui, JP. Vasseur,
+     D. Culler, V. Manral. March 2012. (Format: TXT=30270 bytes) (Status:
+     PROPOSED STANDARD)
+
+6557 Procedures for Maintaining the Time Zone Database. E. Lear, P.
+     Eggert. February 2012. (Format: TXT=18469 bytes) (Also BCP0175)
+     (Status: BEST CURRENT PRACTICE)
+
+6558 Sieve Extension for Converting Messages before Delivery. A.
+     Melnikov, B. Leiba, K. Li. March 2012. (Format: TXT=17152 bytes)
+     (Status: PROPOSED STANDARD)
+
+6559 A Reliable Transport Mechanism for PIM. D. Farinacci, IJ.
+     Wijnands, S. Venaas, M. Napierala. March 2012. (Format: TXT=70159
+     bytes) (Status: EXPERIMENTAL)
+
+6561 Recommendations for the Remediation of Bots in ISP Networks. J.
+     Livingood, N. Mody, M. O'Reirdan. March 2012. (Format: TXT=74562
+     bytes) (Status: INFORMATIONAL)
+
+6562 Guidelines for the Use of Variable Bit Rate Audio with Secure
+     RTP. C. Perkins, JM. Valin. March 2012. (Format: TXT=14288 bytes)
+     (Status: PROPOSED STANDARD)
+
+6563 Moving A6 to Historic Status. S. Jiang, D. Conrad, B. Carpenter.
+     March 2012. (Format: TXT=16654 bytes) (Status: INFORMATIONAL)
+
+6566 A Framework for the Control of Wavelength Switched Optical
+     Networks (WSONs) with Impairments. Y. Lee, Ed., G. Bernstein, Ed., D.
+     Li, G. Martinelli. March 2012. (Format: TXT=68851 bytes) (Status:
+     INFORMATIONAL)
+
+6569 Guidelines for Development of an Audio Codec within the IETF. JM.
+     Valin, S. Borilin, K. Vos, C. Montgomery, R. Chen. March 2012.
+     (Format: TXT=33718 bytes) (Status: INFORMATIONAL)
+
+6570 URI Template. J. Gregorio, R. Fielding, M. Hadley, M. Nottingham,
+     D. Orchard. March 2012. (Format: TXT=79813 bytes) (Status: PROPOSED
+     STANDARD)
+
+6576 IP Performance Metrics (IPPM) Standard Advancement Testing. R.
+     Geib, Ed., A. Morton, R. Fardid, A. Steinmitz. March 2012. (Format:
+     TXT=84447 bytes) (Also BCP0176) (Status: BEST CURRENT PRACTICE)
+
+6577 Authentication-Results Registration Update for Sender Policy
+     Framework (SPF) Results. M. Kucherawy. March 2012. (Format: TXT=8173
+     bytes) (Updates RFC5451) (Status: PROPOSED STANDARD)
+
+6578 Collection Synchronization for Web Distributed Authoring and
+     Versioning (WebDAV). C. Daboo, A. Quillaud. March 2012. (Format:
+     TXT=55731 bytes) (Status: PROPOSED STANDARD)
+
+6579 The 'disclosure' Link Relation Type. M. Yevstifeyev. March 2012.
+     (Format: TXT=7427 bytes) (Status: INFORMATIONAL)
+
+6583 Operational Neighbor Discovery Problems. I. Gashinsky, J.
+     Jaeggli, W. Kumari. March 2012. (Format: TXT=29480 bytes) (Status:
+     INFORMATIONAL)
+
+===========================================================================
+ - This file last updated Fri Mar 30 02:30:01 PDT 2012
+

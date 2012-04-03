@@ -1,0 +1,27 @@
+
+                   Where and how to get new RFCs
+                   =============================
+
+RFCs may be obtained via FTP or HTTP or email from many RFC repositories.  
+
+The official repository for RFCs is:
+
+        http://www.rfc-editor.org/
+
+Some secondary repositories are listed here:
+
+        http://www.rfc-editor.org/repositories.html
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Requests for special distribution of RFCs should be addressed to
+either the author of the RFC in question or to 
+RFC-EDITOR@RFC-EDITOR.ORG.
+
+To subscribe to or unsubscribe from the RFC distribution list, see:
+  http://mailman.rfc-editor.org/mailman/listinfo/rfc-dist
+
+Changes to this file "rfc-retrieval.txt" should be sent to
+RFC-EDITOR@RFC-EDITOR.ORG.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

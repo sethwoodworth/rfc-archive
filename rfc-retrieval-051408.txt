@@ -1,0 +1,378 @@
+
+                   Where and how to get new RFCs
+                   =============================
+
+RFCs may be obtained via EMAIL or FTP from many RFC Repositories.  The
+Primary Repositories will have the RFC available when it is first
+announced, as will many Secondary Repositories.  Some Secondary
+Repositories may take a few days to make available the most recent
+RFCs.
+
+Many of these repositories also now have World Wide Web servers. Try
+the following URL as a starting point:
+
+		http://www.rfc-editor.org/
+
+
+Primary Repositories:
+
+RFCs can be obtained via FTP from NIS.NSF.NET, FTP.RFC-EDITOR.ORG,
+WUARCHIVE.WUSTL.EDU, SRC.DOC.IC.AC.UK, FTP.NCREN.NET, FTP.NIC.IT,
+FTP.IMAG.FR, FTP.IETF.RNP.BR WWW.NORMOS.ORG, FTP.GIGABELL.NET,
+or OASISSTUDIOS.COM.
+
+1.  NIS.NSF.NET
+
+To obtain RFCs from NIS.NSF.NET via FTP, login with username
+"anonymous" and password "name@host.domain"; then connect to the
+directory of RFCs with cd /internet/documents.  The file name is
+of the form rfcnnnn.txt (where "nnnn" refers to the RFC number).
+
+For sites without FTP capability, electronic mail query is available
+from NIS.NSF.NET.  Address the request to NIS-INFO@NIS.NSF.NET and
+leave the subject field of the message blank.  The first text line of
+the message must be "send rfcnnnn.txt" with nnnn the RFC number.
+
+contact:  rfc-mgr@merit.edu
+
+2.  FTP.RFC-EDITOR.ORG
+
+RFCs can be obtained via FTP from FTP.RFC-EDITOR.ORG, with the
+pathname in-notes/rfcnnnn.txt (where "nnnn" refers to the number of
+the RFC). Login with FTP username "anonymous" and password
+"name@host.domain".
+
+RFCs can also be obtained via electronic mail from FTP.RFC-EDITOR.ORG
+by using the RFC-INFO service.  Address the request to
+"rfc-info@rfc-editor" with a message body of:
+
+	Retrieve: RFC
+	   Doc-ID: RFCnnnn
+
+(Where "nnnn" refers to the number of the RFC (always use 4 digits -
+the DOC-ID of RFC 822 is "RFC0822")).  The RFC-INFO@RFC-EDITOR.ORG
+server provides other ways of selecting RFCs based on keywords and
+such; for more information send a message to "rfc-info@rfc-editor.org"
+with the message body "help: help".
+
+contact: rfc-editor@rfc-editor.org
+
+
+3.  WUARCHIVE.WUSTL.EDU
+
+RFCs can also be obtained via FTP from WUARCHIVE.WUSTL.EDU, with the
+pathname info/rfc/rfcnnnn.txt.Z (where "nnnn" refers to the number of
+the
+RFC and "Z" indicates that the document is in compressed form).
+
+At WUARCHIVE.WUSTL.EDU the RFCs are in an "archive" file system and
+various archives can be mounted as part of an NFS file system.
+Please contact Chris Myers (chris@wugate.wustl.edu) if you want to
+mount this file system in your NFS.
+
+WUArchive now keeps RFC's and STD's under
+
+   ftp://wuarchive.wustl.edu./doc/
+   or http://wuarchive.wustl.edu./doc/
+
+contact: chris@wugate.wustl.edu
+
+
+4.  SUNSITE.ORG.UK (also known as SRC.DOC.IC.AC.UK)
+
+RFCs can be obtained via FTP from SUNSITE.ORG.UK with the pathname
+rfc/rfcnnnn.txt or rfc/rfcnnnn.ps (where "nnnn" refers to the
+number of the RFC).  Login with FTP username "anonymous" and password
+"your-email-address".  To obtain the RFC Index, use the pathname
+rfc/rfc-index.txt.
+
+For users with good fast Internet connections, the whole archive is
+also available by NFS (readonly) and the RFC area can be mounted as,
+e.g.
+
+	mount -r sunsite.org.uk:/public/rfc /mnt
+
+RFCs are also available via the web at http://sunsite.org.uk/rfc/
+
+contact: wizards@sunsite.org.uk
+
+
+5.  FTP.NCREN.NET
+
+To obtain RFCs from FTP.NCREN.NET via FTP, login with username
+"anonymous" and your internet e-mail address as password.  The RFCs
+can be found in the directory /rfc, with file names of the form:
+rfcNNNN.txt or rfcNNNN.ps where NNNN refers to the RFC number.
+
+This repository is also accessible via WAIS and the Internet Gopher.
+
+contact: rfc-mgr@ncren.net
+
+
+6.  FTP.NIC.IT
+
+RFCs can be obtained from the ftp.nic.it FTP archive with the pathname
+rfc/rfcnnnn.txt (where "nnnn" refers to the number of the RFC).  Login
+with FTP, username "anonymous" and password "name@host.domain".
+
+The summary of ways to get RFC from the Italian Network Information
+Center is the following:
+
+ Via ftp:       ftp.nic.it directory rfc
+
+ Via e-mail:    send a message to  listserv@nic.it  whose body
+                contains "get RFC/rfc<number>.[txt,ps]".
+                For receiving a full list of the existing RFCs include
+                in the body the command "index RFC/rfc".
+
+Contact:  D.Vannozzi@cnuce.cnr.it
+
+7.  FTP.IMAG.FR
+
+RFCs can be obtained via FTP from ftp.imag.fr with the pathname
+/pub/archive/IETF/rfc/rfcnnnn.txt (where "nnnn" refers to the number
+of the RFC).
+
+Login with FTP username "anonymous" and password "your-email-address".
+To obtain the RFC Index, use the pathname
+/pub/archive/IETF/rfc/rfc-index.txt
+
+Internet drafts & other IETF related documents are also mirrored in
+the /pub/archive/IETF directory.
+
+Contact:  rfc-adm@imag.fr
+
+8.  WWW.NORMOS.ORG
+
+RFCs, STD, BCP, FYI, RTR, IEN, Internet-Drafts, RIPE and other
+internet engineering documents can be found at http://www.normos.org
+and ftp://ftp.normos.org.
+
+The rfcs are available as:
+	http://www.normos.org/ietf/rfc/rfcXXXX.txt
+	ftp://ftp.normos.org/ietf/rfc/rfcXXXX.txt
+
+STD,BCP,FYI,RTR,IEN documents are available as:
+
+http://www.normos.org/ietf/[std,bcp,fyi,rtr,ien]/[std,bcp,fyi,rtr,ien]XXXX.txt
+
+ftp://ftp.normos.org/ietf/[std,bcp,fyi,rtr,ien]/[std,bcp,fyi,rtr,ien]XXXX.txt
+
+Internet-drafts are available as:
+	http://www.normos.org/ietf/internet-drafts/draft-....txt
+	ftp://ftp.normos.org/ietf/internet-drafts/draft-....txt
+
+Full-text search and database queries are available from the web
+interface.
+
+Please send questions, comments, suggestions to info@normos.org.
+
+9.  FTP.IETF.RNP.BR
+
+RFCs can be obtained via FTP from FTP.IETF.RNP.BR with the pathname
+rfc/rfcnnnn.txt  (where "nnnn" refers to the number of the RFC ) .
+Login with FTP username "anonymous" and password
+"your-email-address". To obtain the RFC Index, use the pathname
+rfc/rfc-index.txt.
+
+Internet-Drafts and other IETF related documents are also mirrored.
+
+Contact:  rfc-admin@ietf.rnp.br
+
+10.  FTP.GIGABELL.NET
+
+To obtain RFCs from FTP.GIGABELL.NET via FTP, login with username
+"anonymous" and password "name@host.domain"; then connect to the
+directory of RFCs with cd /pub/rfc.  The file name is of the form
+rfcnnnn.txt (where "nnnn" refers to the RFC number). An index can be
+obtained with the pathname pub/rfc/rfc-index.txt.
+
+contact: ftpadmin@gigabell.net
+
+11.  FTP.FCCN.PT
+
+To obtain RFCs from Oasis Studios via FTP, login to FTP.FCCN.PT with
+username "anonymous" and password "name@host.domain"; then connect to
+the directory of RFCs with cd /pub/IETF/RFCs. The file name is of the
+form rfcnnnn.txt (where "nnnn" refers to the RFC number).
+
+contact: webmaster@fccn.pt
+
+12.  OASISSTUDIOS.COM
+
+To obtain RFCs from Oasis Studios via FTP, login to
+FTP.OASISSTUDIOS.COM with username "anonymous" and password
+"name@host.domain"; then connect to the directory of RFCs with cd
+/pub/RFC.  The file name is of the form rfcnnnn.txt (where "nnnn"
+refers to the RFC number).
+
+For sites without FTP capability, electronic mail query is available
+from oasisstudios@OASISSTUDIOS.COM.  Address the request to
+oasisstudios@OASISSTUDIOS.COM and leave the body of the message
+blank. The subject of the message must be "send rfcnnnn.txt" where
+nnnn is the RFC number.
+
+
+Oasis Global Inc. also provides an HTTP interface to the RFC
+archive. To browse or search the archives via a web browser surf to:
+http://www.oasisstudios.com/RFC
+
+For more information send a message to "rfc-info@OASISSTUDIOS.COM"
+with the subject "help".
+
+contact:  rfc-admin@oasisstudios.com
+
+
+13.  SUNSITE.DK
+
+RFCs can be obtained via FTP from SUNSITE.DK with the pathname
+mirrors/rfc/rfcnnnn.txt or mirrors/rfc/rfcnnnn.ps (where "nnnn" refers
+to the number of the RFC).  Login with FTP username "anonymous" and
+password "your-email-address".  To obtain the RFC Index, use the
+pathname rfc/rfc-index.txt.
+
+RFCs are also available via the web at: http://mirrors.sunsite.dk/rfc/
+
+contact: staff@sunsite.dk
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Secondary Repositories:
+
+Australia and Pacific Rim
+-------------------------
+
+        Site:           munnari
+        Contact:        Robert Elz <kre@munnari.oz.au>
+        Host:           munnari.oz.au
+        Directory:      rfc
+                        rfc's in compressed format rfcNNNN.Z
+                        postscript rfc's rfcNNNN.ps.Z
+
+
+	Site:		The Programmers' Society
+			University of Technology, Sydney
+	Contact:	ftp@progsoc.uts.edu.au
+	Host:		ftp.progsoc.uts.edu.au
+	Directory:	pub/internet
+			Both are stored uncompressed.
+
+Chile
+-----
+        Site:           OK Internet
+        Host:           http://www.ok.cl/rfcs/
+        Directory:      http://www.ok.cl/rfcs/
+
+Denmark
+-------
+	Site:		University of Copenhagen
+	Host:		ftp.denet.dk
+	Directory:	mirror/ftp.isi.edu/in-notes
+
+
+Finland
+-------
+	Site:		FUNET
+	Host:		nic.funet.fi
+	Directory:	index/RFC
+	Directory:      /pub/netinfo/rfc
+	Notes:		RFCs in compressed format.  Also provides
+			email access by sending mail to
+			archive-server@nic.funet.fi.
+
+
+France
+------
+        Site:           Centre d'Informatique Scientifique et Medicale
+                        (CISM)
+        Contact:        ftpmaint@univ-lyon1.fr
+        Host:           ftp.univ-lyon1.fr
+        Directories:    pub/rfc/*       Classified by hundreds
+                        pub/mirrors/rfc Mirror of Internic
+        Notes:          Files compressed with gzip. Online
+                        decompression done by the FTP server.
+
+
+Romania
+-------
+
+	Site:		SunSITE Romania at the Politehnica University
+			of Bucharest
+	Contact:	space@sunsite.pub.ro
+	Host:		sunsite.pub.ro/pub/rfc
+			or via http:
+			sunsite.pub.ro/pub/mirrors/ds.internic.net
+		
+	
+South Africa
+------------
+
+	Site:		The Internet Solution
+	Contact:	ftp-admin@is.co.za
+	Host:		ftp.is.co.za
+	Directory:	internet/in-notes/rfc
+
+
+Sweden
+------
+
+	Host:		ftp.chalmers.se
+	Directory:	rfc
+
+
+United Kingdom
+--------------
+
+	Site:		rfc.net
+        Contact:	Alaric Williams <webmaster@rfc.net>
+
+
+United States
+-------------
+
+	Site:           uunet
+        Contact:        James Revell <revell@uunet.uu.net>
+        Host:           ftp.uu.net
+        Directory:      inet/rfc
+
+
+UUNET Archive
+-------------
+
+     UUNET archive, which includes the RFC's, various IETF documents,
+     and other information regarding the internet, is available to the
+     public via anonymous ftp (to ftp.uu.net) and anonymous uucp, and
+     will be available via an anonymous kermit server soon.  Get the
+     file /archive/inet/ls-lR.Z for a listing of these documents.
+
+     Any site in the US running UUCP may call +1 900 GOT SRCS and use
+     the login "uucp".  There is no password.  The phone company will
+     bill you at $0.50 per minute for the call.  The 900 number only
+     works from within the US.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Requests for special distribution of RFCs should be addressed to
+either the author of the RFC in question or to
+RFC-EDITOR@RFC-EDITOR.ORG
+
+Submissions for Requests for Comments should be sent to
+RFC-EDITOR@RFC-EDITOR.ORG.  Please consult "Instructions to RFC
+Authors", RFC 2223, for further information.
+
+Requests to be added to or deleted from the RFC distribution list
+should
+be sent to RFC-REQUEST@ISI.EDU.
+
+Users with .MIL addresses may send a request to MAJORDOMO@NIC.DDN.MIL
+with an empty Subject: line and a message: subscribe rfc [your email
+address].
+
+Changes to this file "rfc-retrieval.txt" should be sent to
+RFC-EDITOR@RFC-EDITOR.ORG.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
